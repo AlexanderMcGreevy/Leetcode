@@ -5,9 +5,7 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
-        if len(s) != len(t):
-            return False
-            
+        
         temp = t
         for x in s:
             if x in temp:
